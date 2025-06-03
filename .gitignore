@@ -1,0 +1,89 @@
+# IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Java files
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.RELEASE
+*.nar
+local.properties
+
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle files
+build/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Node.js files
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+
+# Web files
+.env
+.env.*
+dist/
+build/
+.cache/
+.parcel-cache/
+coverage/
+.next/
+out/
+.nuxt/
+.vuepress/dist
+.docusaurus/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# Application specific files
+*.log
+application-*.yaml
+application-*.yml
+application-*.properties
+application.properties
+# Keep example configs
+!application*.example.*
+!application.yaml.example
+!application.properties.example
+
+# System
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

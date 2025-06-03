@@ -1,0 +1,17 @@
+server:
+  port: 8086
+  servlet:
+    context-path: /chat
+spring:
+  application:
+    name: chat-service
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/chat-service?authSource=admin
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
