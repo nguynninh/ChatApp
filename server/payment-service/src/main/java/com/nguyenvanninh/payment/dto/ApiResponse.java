@@ -1,4 +1,4 @@
-package com.nguyenvanninh.chat.dto;
+package com.nguyenvanninh.payment.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;

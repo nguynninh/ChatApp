@@ -1,4 +1,4 @@
-package com.nguyenvanninh.chat.configuration;
+package com.nguyenvanninh.payment.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

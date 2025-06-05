@@ -1,8 +1,8 @@
-package com.nguyenvanninh.chat.configuration;
+package com.nguyenvanninh.payment.configuration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nguyenvanninh.chat.dto.ApiResponse;
-import com.nguyenvanninh.chat.exception.ErrorCode;
+import com.nguyenvanninh.payment.dto.ApiResponse;
+import com.nguyenvanninh.payment.exception.ErrorCode;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.MediaType;

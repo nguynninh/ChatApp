@@ -69,6 +69,7 @@ application-*.yaml
 application-*.yml
 application-*.properties
 application.properties
+application.yaml
 # Keep example configs
 !application*.example.*
 !application.yaml.example

@@ -1,6 +1,6 @@
-package com.nguyenvanninh.chat.exception;
+package com.nguyenvanninh.payment.exception;
 
-import com.nguyenvanninh.chat.dto.ApiResponse;
+import com.nguyenvanninh.payment.dto.ApiResponse;
 import jakarta.validation.ConstraintViolation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

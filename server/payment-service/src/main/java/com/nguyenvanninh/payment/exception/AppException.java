@@ -1,4 +1,4 @@
-package com.nguyenvanninh.chat.exception;
+package com.nguyenvanninh.payment.exception;
 
 public class AppException extends RuntimeException {
 
