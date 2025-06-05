@@ -34,16 +34,6 @@
         </processorPath>
         <module name="profile" />
       </profile>
-      <profile name="Annotation profile for chat-service" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-        </processorPath>
-        <module name="gateway" />
-        <module name="file" />
-      </profile>
       <profile name="Annotation profile for chat" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -78,6 +68,17 @@
         </processorPath>
         <module name="identity" />
       </profile>
+      <profile name="Annotation profile for payment-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="payment" />
+        <module name="gateway" />
+        <module name="file" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="euruka" target="21" />
@@ -93,6 +94,7 @@
       <module name="gateway" options="-parameters" />
       <module name="identity" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.defaultComponentModel=spring -Amapstruct.verbose=true" />
       <module name="notification" options="-parameters" />
+      <module name="payment" options="-parameters" />
       <module name="profile" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.defaultComponentModel=spring -Amapstruct.verbose=true" />
       <module name="profile-service" options="-parameters" />
     </option>
